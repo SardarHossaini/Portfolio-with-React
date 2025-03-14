@@ -1,0 +1,57 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.hero img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+.hero h1 {
+  text-align: center;
+  width: 50%;
+  font-size: 50px;
+}
+.hero h1 span {
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background-clip: text;
+  color: transparent;
+}
+.hero p {
+  text-align: center;
+  width: 50%;
+  font-size: 24px;
+  line-height: 40px;
+}
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.hero-connect {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  font-size: 20px;
+  cursor: pointer;
+}
+.hero-resume {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+.hero-connect:hover {
+  border: 2px solid #fff;
+}
+.hero-resume:hover {
+  border-color: #b415ff;
+  color: #b415ff;
+}
