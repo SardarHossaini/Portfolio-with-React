@@ -1,6 +1,7 @@
 import { About } from "./component/About/About";
 import { Hero } from "./component/Hero/Hero";
 import { Navbar } from "./component/Navbar/Navbar";
+import { Services } from "./component/Services/Services";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Services />
     </div>
   );
 };
