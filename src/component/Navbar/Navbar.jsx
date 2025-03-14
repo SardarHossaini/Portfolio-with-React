@@ -1,13 +1,28 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export const Navbar = () => {
   const [menu, setMenu] = useState("home");
+  const menuRef = useRef();
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+  const closeMenu = () => {
+    menuRef.current.style.right = "-300px";
+  };
+
   return (
     <div className="navbar">
       <h2>SarDar</h2>
-      <ul className="nav-menu">
+      <button className="menu-open" onClick={openMenu}>
+        &#9776;
+      </button>
+
+      <ul ref={menuRef} className="nav-menu">
+        <button className="menu-close" onClick={closeMenu}>
+          &times;
+        </button>
         <li>
           <AnchorLink className="anchor-link" href="#home">
             <p
