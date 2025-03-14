@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+}
+body {
+  height: 100vh;
+  background: #161513;
+  color: white;
+}
