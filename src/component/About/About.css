@@ -6,9 +6,6 @@
   gap: 60px;
   margin: 80px 140px;
 }
-.about-title {
-  position: relative;
-}
 .about-title h1 {
   font-size: 40px;
 }
@@ -33,7 +30,7 @@
   gap: 10px;
 }
 .about-skill {
-  display: flex;
+  display: flex !important;
   gap: 50px;
   align-items: center;
   transition: 0.3s;
@@ -44,7 +41,7 @@
 }
 .about-skill p {
   min-width: 150px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .about-skill hr {
   outline: none;
