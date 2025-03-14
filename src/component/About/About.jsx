@@ -16,14 +16,12 @@ export const About = () => {
           <div className="about-para">
             <p>
               I am a full-stack developer from Kabul, Afghanistan, with over one
-              year of experience in building and managing web applications. My
-              expertise spans both front-end and back-end development, allowing
-              me to create seamless and efficient digital solutions. I am
-              proficient in technologies like HTML, CSS, JavaScript, and
-              React.js for front-end development, as well as Laravel for
-              back-end development. With a strong passion for coding and
-              problem-solving, I strive to deliver high-quality and scalable web
-              solutions that meet client needs and industry standards.
+              year of experience in developing web applications. I have hands-on
+              experience with front-end technologies like HTML, CSS, JavaScript,
+              and Vue.js, as well as back-end frameworks such as Laravel. I am
+              passionate about building efficient, scalable, and user-friendly
+              websites and applications, and I enjoy solving complex problems to
+              deliver high-quality solutions.
             </p>
           </div>
           <div className="about-skills">
@@ -50,6 +48,18 @@ export const About = () => {
             <div className="about-skill">
               <p>React JS</p>
               <hr style={{ width: "50%" }} />
+            </div>
+            <div className="about-skill">
+              <p>PHP</p>
+              <hr style={{ width: "80%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Laravel</p>
+              <hr style={{ width: "50%" }} />
+            </div>
+            <div className="about-skill">
+              <p>MySQL</p>
+              <hr style={{ width: "75%" }} />
             </div>
           </div>
         </div>

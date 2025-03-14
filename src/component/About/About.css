@@ -3,15 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
-  margin: 80px 170px;
+  gap: 60px;
+  margin: 80px 140px;
 }
 .about-title {
   position: relative;
 }
 .about-title h1 {
-  padding: 0px 30px;
-  font-size: 80px;
+  font-size: 40px;
 }
 .about-sections {
   display: flex;
@@ -23,18 +22,15 @@
 .about-right {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 40px;
 }
 .about-para {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  font-size: 24px;
+  font-size: 22px;
 }
 .about-skills {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 .about-skill {
   display: flex;
