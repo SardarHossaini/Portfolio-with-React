@@ -1,3 +1,4 @@
+import { About } from "./component/About/About";
 import { Hero } from "./component/Hero/Hero";
 import { Navbar } from "./component/Navbar/Navbar";
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <About />
     </div>
   );
 };
