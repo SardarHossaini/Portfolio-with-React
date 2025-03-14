@@ -4,7 +4,7 @@ import { mywork_data } from "./mywork_data.js";
 
 export const MyWork = () => {
   return (
-    <div className="mywork">
+    <div className="mywork" id="work">
       <div className="mywork-title">
         <h1>My Latest Work</h1>
       </div>
