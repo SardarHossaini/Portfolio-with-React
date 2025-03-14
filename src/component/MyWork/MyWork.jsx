@@ -1,6 +1,6 @@
 import React from "react";
 import "./mywork.css";
-import { mywork_data } from "./MyWork";
+import { mywork_data } from "./mywork_data.js";
 
 export const MyWork = () => {
   return (
