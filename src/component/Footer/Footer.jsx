@@ -6,7 +6,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src="logo.png" alt="" />
+          <h2>SarDar</h2>
           <p>
             I'm a Full-Stack developer from Kabul, AFG with 1 years of
             experience in multiple companies like woosat and Bami.
@@ -14,7 +14,7 @@ export const Footer = () => {
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">
-            <i className="fa fa-user"></i>
+            <i className="fa fa-user-alt"></i>
             <input type="email" placeholder="Enter your email" />
           </div>
           <div className="footer-subscribe">Subscribe</div>

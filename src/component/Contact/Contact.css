@@ -77,13 +77,12 @@
 .contact-submit {
   border: none;
   color: white;
+  font-size: 18px;
+  padding: 15px 30px;
   border-radius: 50px;
   background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
-  padding: 10px 20px;
-  font-size: 18px;
-  margin-bottom: 30px;
-  transition: 0.3s;
   cursor: pointer;
+  transition: 0.3s;
 }
 .contact-submit:hover {
   transform: scale(1.06);
