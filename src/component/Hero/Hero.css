@@ -55,3 +55,70 @@
   border-color: #b415ff;
   color: #b415ff;
 }
+@media only screen and (max-width: 576px) {
+  .hero {
+    gap: 15px;
+  }
+  .hero img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  }
+  .hero h1 {
+    width: 75%;
+    font-size: 30px;
+  }
+  .hero p {
+    text-align: center;
+    width: 75%;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .hero-action {
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .hero-connect {
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+  .hero-resume {
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .hero {
+    gap: 20px;
+  }
+  .hero img {
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+  }
+  .hero h1 {
+    width: 70%;
+    font-size: 35px;
+  }
+  .hero p {
+    text-align: center;
+    width: 70%;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .hero-action {
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .hero-connect {
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+  .hero-resume {
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+}
