@@ -92,8 +92,7 @@
   .contact {
     gap: 40px;
     margin: 40px 60px;
-    width: 100%;
-    /* align-items: start; */
+    /* width: 100%; */
   }
   .contact-title h1 {
     font-size: 35px;

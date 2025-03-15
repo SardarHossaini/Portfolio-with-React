@@ -61,20 +61,22 @@
   gap: 50px;
   margin-bottom: 50px;
 }
+
 @media (max-width: 992px) {
   .footer {
-    margin: 50px 80px;
+    margin: 50px 60px;
   }
   .footer-top {
     flex-direction: column;
   }
   .footer-top-right {
-    gap: 15px;
+    gap: 10px;
+    flex-direction: column;
   }
   .footer-email-input {
-    gap: 15px;
+    gap: 10px;
     padding: 12px 24px;
-    padding-right: 5px;
+    padding-right: 0px;
   }
   .footer-email-input input {
     font-size: 16px;
@@ -84,13 +86,15 @@
   }
   .footer-subscribe {
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 12px 50px;
+    text-align: center;
   }
   .footer-subscribe:hover {
     transform: scale(1.06);
     transition: 0.3s;
   }
   .footer-bottom {
+    flex-direction: column;
     font-size: 15px;
   }
   .footer-bottom-right {
