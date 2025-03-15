@@ -77,3 +77,45 @@
 .about-achievement p {
   font-size: 20px;
 }
+@media (max-width: 768px) {
+  .about {
+    gap: 40px;
+    margin: 60px 40px;
+  }
+  .about-title h1 {
+    font-size: 35px;
+  }
+  .about-sections {
+    gap: 20px;
+  }
+  .about-left img {
+    display: none;
+  }
+  .about-right {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-para {
+    font-size: 16px;
+  }
+  .about-skills {
+    gap: 0px;
+  }
+  .about-skill {
+    gap: 5px;
+  }
+  .about-skill p {
+    font-size: 18px;
+  }
+  .about-achievements {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .about-achievement {
+    gap: 5px;
+  }
+  .about-achievement h1 {
+    font-size: 50px;
+  }
+}
