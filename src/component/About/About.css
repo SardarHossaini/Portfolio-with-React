@@ -89,8 +89,8 @@
     gap: 20px;
     flex-direction: column;
   }
-  .about-left img {
-    width: 100%;
+  .about-left{
+    display: none;
   }
   .about-right {
     gap: 10px;
@@ -99,6 +99,7 @@
   }
   .about-para {
     font-size: 16px;
+    text-align: justify;
   }
   .about-skills {
     gap: 0px;
