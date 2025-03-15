@@ -14,7 +14,7 @@
   gap: 80px;
 }
 .about-left img {
-  width: 500px;
+  width: 520px;
 }
 .about-right {
   display: flex;
@@ -22,12 +22,12 @@
   gap: 40px;
 }
 .about-para {
-  font-size: 22px;
+  font-size: 20px;
 }
 .about-skills {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
 }
 .about-skill {
   display: flex !important;
@@ -43,7 +43,7 @@
   min-width: 150px;
   font-size: 20px;
 }
-.about-skill hr {
+.about-skill div {
   outline: none;
   border: none;
   width: 50%;

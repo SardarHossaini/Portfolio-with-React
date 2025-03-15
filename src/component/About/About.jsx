@@ -27,39 +27,39 @@ export const About = () => {
           <div className="about-skills">
             <div className="about-skill">
               <p>HTML & CSS</p>
-              <hr style={{ width: "80%" }} />
+              <div style={{ width: "80%" }}></div>
             </div>
             <div className="about-skill">
               <p>Bootstrap</p>
-              <hr style={{ width: "90%" }} />
+              <div style={{ width: "90%" }}></div>
             </div>
             <div className="about-skill">
               <p>TailwantCSS</p>
-              <hr style={{ width: "80%" }} />
+              <div style={{ width: "80%" }}></div>
             </div>
             <div className="about-skill">
               <p>JavaScript</p>
-              <hr style={{ width: "70%" }} />
+              <div style={{ width: "70%" }}></div>
             </div>
             <div className="about-skill">
               <p>GSAP</p>
-              <hr style={{ width: "60%" }} />
+              <div style={{ width: "60%" }}></div>
             </div>
             <div className="about-skill">
               <p>React JS</p>
-              <hr style={{ width: "50%" }} />
+              <div style={{ width: "50%" }}></div>
             </div>
             <div className="about-skill">
               <p>PHP</p>
-              <hr style={{ width: "80%" }} />
+              <div style={{ width: "80%" }}></div>
             </div>
             <div className="about-skill">
               <p>Laravel</p>
-              <hr style={{ width: "50%" }} />
+              <div style={{ width: "50%" }}></div>
             </div>
             <div className="about-skill">
               <p>MySQL</p>
-              <hr style={{ width: "75%" }} />
+              <div style={{ width: "75%" }}></div>
             </div>
           </div>
         </div>
