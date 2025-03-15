@@ -77,9 +77,9 @@
 .about-achievement p {
   font-size: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .about {
-    gap: 40px;
+    gap: 50px;
     margin: 60px 40px;
   }
   .about-title h1 {
@@ -87,9 +87,10 @@
   }
   .about-sections {
     gap: 20px;
+    flex-direction: column;
   }
   .about-left img {
-    display: none;
+    width: 100%;
   }
   .about-right {
     gap: 10px;

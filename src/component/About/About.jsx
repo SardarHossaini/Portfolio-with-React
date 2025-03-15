@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import profile from "../../assets/sardar2.jpg";
+import profile2 from "../../assets/sardar.jpg";
 
 export const About = () => {
   return (
@@ -18,7 +19,7 @@ export const About = () => {
               I am a full-stack developer from Kabul, Afghanistan, with over one
               year of experience in developing web applications. I have hands-on
               experience with front-end technologies like HTML, CSS, JavaScript,
-              and Vue.js, as well as back-end frameworks such as Laravel. I am
+              and React.js, as well as back-end frameworks such as Laravel. I am
               passionate about building efficient, scalable, and user-friendly
               websites and applications, and I enjoy solving complex problems to
               deliver high-quality solutions.
@@ -69,7 +70,6 @@ export const About = () => {
           <h1>1+</h1>
           <p>YEARS OF EXPERIENCE</p>
         </div>
-        <hr />
         <div className="about-achievement">
           <h1>30+</h1>
           <p>PORJECT COMPLETED</p>
