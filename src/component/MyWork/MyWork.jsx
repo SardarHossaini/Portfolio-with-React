@@ -14,7 +14,7 @@ export const MyWork = () => {
         ))}
       </div>
       <div className="mywork-showmore">
-        <span>Read More</span>
+        <span>Show More</span>
         <i className="fa fa-arrow-right"></i>
       </div>
     </div>
