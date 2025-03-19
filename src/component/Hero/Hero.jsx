@@ -19,7 +19,14 @@ export const Hero = () => {
             Connect With Me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <div
+          className="hero-resume"
+          onClick={() => {
+            window.open("./CV.pdf");
+          }}
+        >
+          My resume
+        </div>
       </div>
     </div>
   );

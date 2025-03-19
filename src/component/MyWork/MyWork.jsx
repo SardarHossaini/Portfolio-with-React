@@ -14,8 +14,10 @@ export const MyWork = () => {
         ))}
       </div>
       <div className="mywork-showmore">
-        <span>Show More</span>
-        <i className="fa fa-arrow-right"></i>
+        <a href="https://github.com/SardarHossaini">
+          <span>Show More</span>
+          <i className="fa fa-arrow-right"></i>
+        </a>
       </div>
     </div>
   );
