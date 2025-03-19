@@ -36,62 +36,53 @@ export const Footer = () => {
       <div className="container-fluid" id="footer">
         <div className="container">
           <div className="row" id="main-footer">
-            <div className="col-md-4" id="part1-footer">
+            <div className="col-md-5" id="part1-footer">
               <a href="#home">
                 <h2>SarDar</h2>
               </a>
-              <h6>Love your hungar and celebrate it with the whole family.</h6>
-              <h6>Follow Us</h6>
-              <a href="#">
-                <span className="fab fa-facebook-square"></span>
-              </a>
-              <a href="#">
-                <span className="fab fa-linkedin"></span>
-              </a>
-              <a href="#">
-                <span className="fab fa-whatsapp"></span>
-              </a>
-              <a href="#">
-                <span className="fab fa-twitter"></span>
-              </a>
-              <a href="#">
-                <span className="fab fa-instagram"></span>
-              </a>
+              <p>
+                I'm a Full-Stack developer from Kabul, AFG with 1 years of
+                experience in multiple companies like woosat and Bami.
+              </p>
+              <h6>Follow Me In</h6>
+              <div className="social-media">
+                <a href="#">
+                  <span className="fab fa-facebook-square"></span>
+                </a>
+                <a href="#">
+                  <span className="fab fa-linkedin"></span>
+                </a>
+                <a href="#">
+                  <span className="fab fa-github"></span>
+                </a>
+                <a href="#">
+                  <span className="fab fa-twitter"></span>
+                </a>
+                <a href="#">
+                  <span className="fab fa-instagram"></span>
+                </a>
+              </div>
             </div>
-            <div className="col-md-8" id="part2-footer">
+            <div className="col-md-7" id="part2-footer">
               <div className="row" id="sub-footer">
-                <div className="col-md-4 col-sm-12" id="sub1">
+                <div className="col-md-6 col-sm-12" id="sub1">
                   <h4>Links</h4>
                   <ul>
                     <li>
-                      <a href="pages/menu.html">Menu</a>
+                      <a href="#home">Home</a>
                     </li>
                     <li>
-                      <a href="pages/about.html">About Us</a>
+                      <a href="#about">About Me</a>
                     </li>
                     <li>
-                      <a href="pages/contact.html">Contact Us</a>
+                      <a href="#work">My Work</a>
                     </li>
                     <li>
-                      <a href="pages/booktable.html">Book Table</a>
+                      <a href="#contact">Contact</a>
                     </li>
                   </ul>
                 </div>
-                <div className="col-md-4 col-sm-12" id="sub1">
-                  <h4>Support</h4>
-                  <ul>
-                    <li>
-                      <a href="pages/contact.html">Contact</a>
-                    </li>
-                    <li>
-                      <a href="#">Support Center</a>
-                    </li>
-                    <li>
-                      <a href="#">Feedback</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-md-4 col-sm-12" id="sub3">
+                <div className="col-md-6 col-sm-12" id="sub3">
                   <h4>Contact</h4>
                   <ul>
                     <li>

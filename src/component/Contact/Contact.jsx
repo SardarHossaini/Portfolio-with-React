@@ -45,6 +45,10 @@ export const Contact = () => {
               <i className="fa fa-phone"></i> <p>+93 (0)78-214-8885</p>
             </div>
             <div className="contact-detail">
+              <i className="fab fa-whatsapp"></i>
+              <p>+93 (0)78-214-8885</p>
+            </div>
+            <div className="contact-detail">
               <i className="fa fa-location-dot"></i> <p>Kabul, AFG</p>
             </div>
           </div>

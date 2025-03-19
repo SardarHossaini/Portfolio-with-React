@@ -44,6 +44,7 @@
 }
 .contact-detail i {
   font-size: 24px;
+  margin-bottom: 18px;
 }
 .contact-right {
   display: flex;
@@ -112,7 +113,7 @@
     line-height: 32px;
   }
   .contact-details {
-    gap: 20px;
+    gap: 10px;
     font-size: 18px;
   }
   .contact-detail {
@@ -122,7 +123,7 @@
   }
   .contact-detail i {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .contact-right {
     gap: 20px;
