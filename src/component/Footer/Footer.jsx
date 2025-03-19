@@ -3,35 +3,6 @@ import "./Footer.css";
 
 export const Footer = () => {
   return (
-    // <div classNameName="footer">
-    //   <div classNameName="footer-top">
-    //     <div classNameName="footer-top-left">
-    //       <h2>SarDar</h2>
-    //       <p>
-    //         I'm a Full-Stack developer from Kabul, AFG with 1 years of
-    //         experience in multiple companies like woosat and Bami.
-    //       </p>
-    //     </div>
-    //     <div classNameName="footer-top-right">
-    //       <div classNameName="footer-email-input">
-    //         <i classNameName="fa fa-user-alt"></i>
-    //         <input type="email" placeholder="Enter your email" />
-    //       </div>
-    //       <div classNameName="footer-subscribe">Subscribe</div>
-    //     </div>
-    //   </div>
-    //   <hr />
-    //   <div classNameName="footer-bottom">
-    //     <p classNameName="footer-bottom-left">
-    //       &copy; 2025 Sardar Hossaini. All rights reserved.
-    //     </p>
-    //     <div classNameName="footer-bottom-right">
-    //       <p>Term of Services</p>
-    //       <p>Privacy Policy</p>
-    //       <p>Connect with me</p>
-    //     </div>
-    //   </div>
-    // </div>
     <>
       <div className="container-fluid" id="footer">
         <div className="container">
@@ -116,12 +87,16 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div id="end-footer">
-          <p>&copy; copyright 2023 Hossaini Restaurant | All rights reserved</p>
-          <p>
-            Autor : <span>Sardar Hossaini</span>
-          </p>
+      <div className="container-fluid" id="copy">
+        <div className="container">
+          <div id="end-footer">
+            <p>
+              &copy; copyright 2023 Hossaini Restaurant | All rights reserved
+            </p>
+            <p>
+              Autor : <span>Sardar Hossaini</span>
+            </p>
+          </div>
         </div>
       </div>
     </>

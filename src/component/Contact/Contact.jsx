@@ -42,11 +42,12 @@ export const Contact = () => {
               <p>sardarhossini2022@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <i className="fa fa-phone"></i> <p>+93 (0)78-214-8885</p>
+              <i className="fa fa-phone-volume"></i>
+              <p>+93 (0) 782148885</p>
             </div>
             <div className="contact-detail">
               <i className="fab fa-whatsapp"></i>
-              <p>+93 (0)78-214-8885</p>
+              <p>+93 (0) 782148885</p>
             </div>
             <div className="contact-detail">
               <i className="fa fa-location-dot"></i> <p>Kabul, AFG</p>

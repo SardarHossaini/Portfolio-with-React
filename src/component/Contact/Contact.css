@@ -67,7 +67,7 @@
   font-size: 18px;
 }
 .contact-right textarea {
-  width: 650px;
+  width: 700px;
   border: none;
   padding: 25px;
   border-radius: 4px;
@@ -89,10 +89,10 @@
   transform: scale(1.06);
   transition: 0.3s;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .contact {
     gap: 40px;
-    margin: 40px 60px;
+    margin: 40px 50px 40px 30px;
     /* width: 100%; */
   }
   .contact-title h1 {
@@ -136,7 +136,7 @@
     width: 100%;
   }
   .contact-right textarea {
-    width: 100%;
+    width: 90%;
   }
   .contact-submit {
     font-size: 16px;
