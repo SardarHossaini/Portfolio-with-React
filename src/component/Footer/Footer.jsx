@@ -17,19 +17,19 @@ export const Footer = () => {
               </p>
               <h6>Follow Me In</h6>
               <div className="social-media">
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100022777820383">
                   <span className="fab fa-facebook-square"></span>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/sardar-hossaini/">
                   <span className="fab fa-linkedin"></span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/SardarHossaini">
                   <span className="fab fa-github"></span>
                 </a>
-                <a href="#">
+                <a href="https://x.com/Sardar626285221">
                   <span className="fab fa-twitter"></span>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/sardarhussaini2024/">
                   <span className="fab fa-instagram"></span>
                 </a>
               </div>
@@ -68,8 +68,8 @@ export const Footer = () => {
                       <p>
                         <span className="fa fa-envelope"></span>
                         <span>
-                          <a href="mailto:hossaini224@gmail.com">
-                            hossaini224@gmail.com
+                          <a href="mailto:sardarhossaini2022@gmail.com">
+                            sardarhossaini2022@gmail.com
                           </a>
                         </span>
                       </p>
