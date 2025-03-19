@@ -74,6 +74,7 @@
   justify-content: space-between;
   padding-top: 16px;
   background-color: #32323c;
+  margin: 0 10px;
 }
 #end-footer p span:hover {
   color: #c547ff;

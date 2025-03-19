@@ -12,7 +12,9 @@
   font-size: 18px;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 20px;
+}
+.nav-menu li {
+  margin-top: 10px;
 }
 .active {
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
@@ -90,7 +92,7 @@
 }
 @media (max-width: 1200px) {
   .navbar {
-    margin: 0px 80px;
+    margin: 10px 30px 0px 30px;
   }
   .nav-menu {
     gap: 40px;
