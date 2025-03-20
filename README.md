@@ -18,7 +18,7 @@ Welcome to my new portfolio website built with React. This project showcases my 
 - JavaScript
 - React
 
-<!-- <b>[Live Demo](https://sardar219.github.io/portfolio/)</b> -->
+<b>[Live Demo](https://sardarhossaini.netlify.app/)</b>
 
 ## My Contact
 
@@ -27,7 +27,6 @@ Welcome to my new portfolio website built with React. This project showcases my 
 - [Facebook](https://www.facebook.com/profile.php?id=100022777820383)
 - [Instagram](https://www.instagram.com/sardarhussaini2024/)
 - [Twitter/X](https://x.com/Sardar626285221)
-
 
 # React + Vite
 
